@@ -1,0 +1,9 @@
+<table style="width:100%;     border-collapse: separate;
+; border-spacing:0">
+  <tr *ngFor="let key of keys">
+    <th style="text-align: left">{{key}}</th>
+    <td *ngFor="let obj of data">
+      <app-table-data class="cell" [key]="key" [obj]="obj"></app-table-data>
+    </td>
+  </tr>
+</table>

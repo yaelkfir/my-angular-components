@@ -1,0 +1,16 @@
+<p>
+  my-form works!
+</p>
+<form [formGroup]="myForm" (submit)="logForm()" >
+  <div>
+    <p *ngFor="let selected of selectedData">{{selected.title}}work?</p>
+  </div>
+  <div>
+    <app-search [mode]="'main'" [parent]="myForm" (searchData)="resChange($event)"
+    ></app-search>
+  </div>
+  <div>
+    <app-multi-select [mode]="'inner'" [parent]="myForm" [resData]="resData" (selectedData)="selectedChange($event)"></app-multi-select>
+  </div>
+  <button>log</button>
+</form>

@@ -1,0 +1,70 @@
+{
+    "appData": {
+       
+        "selected": [
+            {
+                "name": "selected 1",
+                "id": 1
+            },
+            {
+                "name": "selected 2",
+                "id": 1
+            },
+            {
+                "name": "selected 3",
+                "id": 1
+            }
+        ],
+        
+        "notSelected": [
+            {
+                "name": "notSelected 1",
+                "id": 1
+            },
+            {
+                "name": "notSelected 2",
+                "id": 1
+            },
+            {
+                "name": "notSelected 3",
+                "id": 1
+            },
+            {
+                "name": "notSelected 4",
+                "id": 1
+            },
+            {
+                "name": "notSelected 5",
+                "id": 1
+            },
+            {
+                "name": "notSelected 6",
+                "id": 1
+            },
+                        {
+                "name": "notSelected 7",
+                "id": 1
+            },
+            {
+                "name": "notSelected 8",
+                "id": 1
+            },
+            {
+                "name": "notSelected 9",
+                "id": 1
+            },
+            {
+                "name": "notSelected 10",
+                "id": 1
+            },
+            {
+                "name": "notSelected 11",
+                "id": 1
+            },
+            {
+                "name": "notSelected 12",
+                "id": 1
+            }
+        ]
+    }
+}

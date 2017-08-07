@@ -1,0 +1,7 @@
+<!--<td *ngFor="let obj of data" (click)="getClick(key,obj)">{{getMyData(key,obj)}}</td>-->
+<!--<th style="text-align: left">{{key}}</th>-->
+<!--<td *ngFor="let obj of data" (click)="getClick(key,obj)">{{getMyData(key,obj)}}</td>-->
+<span *ngIf="!edit" class="truncate" (click)="log()">{{getMyData(key,obj)}}</span>
+<form [formGroup]="editor" *ngIf="edit">
+  <input type="text" formControlName="value" (click)="log()">
+</form>

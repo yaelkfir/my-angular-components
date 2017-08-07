@@ -1,0 +1,23 @@
+tr{
+  max-height:100px;
+}
+td{
+  margin:0;
+  padding:0;
+}
+
+.cell{
+  width: 150px;
+  display: block;
+  max-height: 110px;
+  overflow: auto;
+  border: 1px solid black;
+}
+
+.truncate {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

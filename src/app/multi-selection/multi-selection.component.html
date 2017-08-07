@@ -1,0 +1,11 @@
+<div [formGroup]="multiSelectF">
+  <div formArrayName="selections">
+    <div *ngFor="let res of multiSelectF.controls['selections'].controls; let i = index">
+      <label  [formGroupName]="i" (click)="targetRes(i)">
+        <input type="checkbox"  formControlName="select">
+        <span>{{resData[i].title}} {{i}}</span>
+      </label>
+    </div>
+  </div>
+</div>
+
